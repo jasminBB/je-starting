@@ -20,6 +20,7 @@
 		<!-- CSS for full page scroll -->
 		<link rel="stylesheet" type="text/css" href="./assets/css/jquery.fullPage.css" />	
     <!-- Custom styles for this template -->
+		<link href='https://fonts.googleapis.com/css?family=Raleway:100,900|Lato:300' rel='stylesheet' type='text/css'>
     <link href="./assets/css/custom-style.css" rel="stylesheet">
 
     <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
@@ -35,7 +36,7 @@
 
   <body>
 	<div id="fullpage" class="container-fluid no-padding">
-		<section class="section">
+		<section class="section section-1">
 			<div class="row no-margin">
 				<div class="col-xs-12">
 					<header class="l-hero text-center text-black">
@@ -45,84 +46,73 @@
 				</div>
 			</div>
 		</section> <!-- End of section #1 -->
-		<section class="section">
+		<section class="section section-skill-1" data-device="tablet">
 			<div class="row">
-				<div class="col-xs-12 l-height-50vh bg-lb">
+				<div class="col-xs-12 col-sm-6 l-height-50vh bg-lb">
 					<div class="abs-pos vertical-middle">
 						<article class="l-skill padding-xs text-center">
-							<h2 class="text-uppercase">
-								Html
-								<div class="border-white"></div>
-							</h2>
+							<h2 class="text-uppercase">Html</h2>
 							<p>Lorem ipsum dolor sit amet, et tale viderer eam, veri oblique vel ei. Probo novum accumsan et quo, elit animal ad est. Duo eu essent dolorem expetenda, ad accusam offendit noluisse eos, at velit tincidunt his. Alterum invenire ut vel.</p>
 						</article>
 					</div>
 				</div>
-				<div class="col-xs-12 l-height-50vh bg-gr">
+				<div class="col-xs-12 col-sm-6 l-height-50vh bg-gr">
 					<div class="abs-pos vertical-middle">
 						<article class="l-skill padding-xs text-center text-black">
-							<h2 class="text-uppercase">
-								Css
-								<div class="border-black"></div>
-							</h2>
+							<h2 class="text-uppercase">Css</h2>
 							<p>Lorem ipsum dolor sit amet, et tale viderer eam, veri oblique vel ei. Probo novum accumsan et quo, elit animal ad est. Duo eu essent dolorem expetenda, ad accusam offendit noluisse eos, at velit tincidunt his. Alterum invenire ut vel.</p>
 						<article>
 					</div>
 				</div>
 			</div>
 		</section>
-		<section class="section">
+		<section class="section section-skill-2" data-device="tablet">
 			<div class="row">
-				<div class="col-xs-12 l-height-50vh bg-db">
+				<div class="col-xs-12 col-sm-6 l-height-50vh bg-db">
 					<div class="abs-pos vertical-middle">
 						<article class="l-skill padding-xs text-center">
-							<h2 class="text-uppercase">
-								JS
-								<div class="border-white"></div>
-							</h2>
+							<h2 class="text-uppercase">JS</h2>
 							<p>Lorem ipsum dolor sit amet, et tale viderer eam, veri oblique vel ei. Probo novum accumsan et quo, elit animal ad est. Duo eu essent dolorem expetenda, ad accusam offendit noluisse eos, at velit tincidunt his. Alterum invenire ut vel.</p>
 						</article>
 					</div>
 				</div>
-				<div class="col-xs-12 l-height-50vh bg-elb">
+				<div class="col-xs-12 col-sm-6 l-height-50vh bg-elb">
 					<div class="abs-pos vertical-middle">
 						<article class="l-skill padding-xs text-center text-black">
-							<h2 class="text-uppercase">
-								jQuery
-								<div class="border-black"></div>
-							</h2>
+							<h2 class="text-uppercase">jQuery</h2>
 							<p>Lorem ipsum dolor sit amet, et tale viderer eam, veri oblique vel ei. Probo novum accumsan et quo, elit animal ad est. Duo eu essent dolorem expetenda, ad accusam offendit noluisse eos, at velit tincidunt his. Alterum invenire ut vel.</p>
 						</article>
 					</div>
 				</div>
 			</div>
 		</section>
-		<section class="section">
+		<section class="section section-skill-3" data-device="tablet">
 			<div class="row">
-				<div class="col-xs-12 l-height-50vh bg-rd">
+				<div class="col-xs-12 col-sm-6 l-height-50vh bg-rd">
 					<div class="abs-pos vertical-middle">
 						<article class="l-skill padding-xs text-center">
-							<h2 class="text-uppercase">
-								Wordpress
-								<div class="border-white"></div>
-							</h2>
+							<h2 class="text-uppercase">Wordpress</h2>
 							<p>Lorem ipsum dolor sit amet, et tale viderer eam, veri oblique vel ei. Probo novum accumsan et quo, elit animal ad est. Duo eu essent dolorem expetenda, ad accusam offendit noluisse eos, at velit tincidunt his. Alterum invenire ut vel.</p>
 						</article>
 					</div>
 				</div>
-				<div class="col-xs-12 l-height-50vh bg-or">
+				<div class="col-xs-12 col-sm-6 l-height-50vh bg-or">
 					<div class="abs-pos vertical-middle">
 						<article class="l-skill padding-xs text-center">
-							<h2 class="text-uppercase">
-								Bootstrap
-								<div class="border-white"></div>
-							</h2>
+							<h2 class="text-uppercase">Bootstrap</h2>
 							<p>Lorem ipsum dolor sit amet, et tale viderer eam, veri oblique vel ei. Probo novum accumsan et quo, elit animal ad est. Duo eu essent dolorem expetenda, ad accusam offendit noluisse eos, at velit tincidunt his. Alterum invenire ut vel.</p>
 						</article>
 					</div>
 				</div>
 			</div>
 		</section> <!-- End of section #2 -->
+		<section class="section hidden-xs">
+			<div class="row no-margin">
+				<div class="col-xs-12">
+					<h1 class="text-black">Development process section</h1>
+				</div>
+			</div>
+		</section> <!-- End of section #3 -->
 		<section class="section bg-elb">
 			<div class="row no-margin">
 				<div class="col-xs-12">
