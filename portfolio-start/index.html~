@@ -9,7 +9,7 @@
     <meta name="author" content="">
     <link rel="icon" href="http://getbootstrap.com/favicon.ico">
 
-    <title>Starter Template for Bootstrap</title>
+    <title>Web Development &amp; Design</title>
 
     <!-- Bootstrap core CSS -->
     <link href="./assets/css/bootstrap.min.css" rel="stylesheet">
@@ -34,12 +34,11 @@
   </head>
 
   <body>
-
 	<div id="fullpage" class="container-fluid no-padding">
 		<section class="section">
-			<div class="row no-padding">
+			<div class="row no-margin">
 				<div class="col-xs-12">
-					<header>
+					<header class="l-hero text-center text-black">
 						<h1>Web Developer &amp; Designer</h1>
 						<h3>Lorem ipsum dolor sit amet, et tale viderer eam, veri oblique vel ei. Probo novum accumsan et quo, elit animal ad est. Duo eu essent dolorem expetenda, ad accusam offendit noluisse eos, at velit tincidunt his. Alterum invenire ut vel.</h3>
 					</header>
@@ -50,55 +49,87 @@
 			<div class="row">
 				<div class="col-xs-12 l-height-50vh bg-lb">
 					<div class="abs-pos vertical-middle">
-						<article class="padding-xs">
-							<h2 class="text-uppercase">Html</h2>
+						<article class="l-skill padding-xs text-center">
+							<h2 class="text-uppercase">
+								Html
+								<div class="border-white"></div>
+							</h2>
 							<p>Lorem ipsum dolor sit amet, et tale viderer eam, veri oblique vel ei. Probo novum accumsan et quo, elit animal ad est. Duo eu essent dolorem expetenda, ad accusam offendit noluisse eos, at velit tincidunt his. Alterum invenire ut vel.</p>
 						</article>
 					</div>
 				</div>
 				<div class="col-xs-12 l-height-50vh bg-gr">
 					<div class="abs-pos vertical-middle">
-						<article class="padding-xs">
-							<h2 class="text-uppercase">Css</h2>
+						<article class="l-skill padding-xs text-center text-black">
+							<h2 class="text-uppercase">
+								Css
+								<div class="border-black"></div>
+							</h2>
 							<p>Lorem ipsum dolor sit amet, et tale viderer eam, veri oblique vel ei. Probo novum accumsan et quo, elit animal ad est. Duo eu essent dolorem expetenda, ad accusam offendit noluisse eos, at velit tincidunt his. Alterum invenire ut vel.</p>
 						<article>
 					</div>
 				</div>
+			</div>
+		</section>
+		<section class="section">
+			<div class="row">
 				<div class="col-xs-12 l-height-50vh bg-db">
 					<div class="abs-pos vertical-middle">
-						<article class="padding-xs">
-							<h2 class="text-uppercase">JS</h2>
+						<article class="l-skill padding-xs text-center">
+							<h2 class="text-uppercase">
+								JS
+								<div class="border-white"></div>
+							</h2>
 							<p>Lorem ipsum dolor sit amet, et tale viderer eam, veri oblique vel ei. Probo novum accumsan et quo, elit animal ad est. Duo eu essent dolorem expetenda, ad accusam offendit noluisse eos, at velit tincidunt his. Alterum invenire ut vel.</p>
 						</article>
 					</div>
 				</div>
 				<div class="col-xs-12 l-height-50vh bg-elb">
 					<div class="abs-pos vertical-middle">
-						<article class="padding-xs">
-							<h2 class="text-uppercase">jQuery</h2>
-							<p>Lorem ipsum dolor sit amet, et tale viderer eam, veri oblique vel ei. Probo novum accumsan et quo, elit animal ad est. Duo eu essent dolorem expetenda, ad accusam offendit noluisse eos, at velit tincidunt his. Alterum invenire ut vel.</p>
-						</article>
-					</div>
-				</div>
-				<div class="col-xs-12 l-height-50vh bg-rd">
-					<div class="abs-pos vertical-middle">
-						<article class="padding-xs">
-							<h2 class="text-uppercase">Wordpress</h2>
-							<p>Lorem ipsum dolor sit amet, et tale viderer eam, veri oblique vel ei. Probo novum accumsan et quo, elit animal ad est. Duo eu essent dolorem expetenda, ad accusam offendit noluisse eos, at velit tincidunt his. Alterum invenire ut vel.</p>
-						</article>
-					</div>
-				</div>
-				<div class="col-xs-12 l-height-50vh bg-or">
-					<div class="abs-pos vertical-middle">
-						<article class="padding-xs">
-							<h2 class="text-uppercase">Bootstrap</h2>
+						<article class="l-skill padding-xs text-center text-black">
+							<h2 class="text-uppercase">
+								jQuery
+								<div class="border-black"></div>
+							</h2>
 							<p>Lorem ipsum dolor sit amet, et tale viderer eam, veri oblique vel ei. Probo novum accumsan et quo, elit animal ad est. Duo eu essent dolorem expetenda, ad accusam offendit noluisse eos, at velit tincidunt his. Alterum invenire ut vel.</p>
 						</article>
 					</div>
 				</div>
 			</div>
 		</section>
-		<section class="section bg-elb">Footer for mobile devices</section>
+		<section class="section">
+			<div class="row">
+				<div class="col-xs-12 l-height-50vh bg-rd">
+					<div class="abs-pos vertical-middle">
+						<article class="l-skill padding-xs text-center">
+							<h2 class="text-uppercase">
+								Wordpress
+								<div class="border-white"></div>
+							</h2>
+							<p>Lorem ipsum dolor sit amet, et tale viderer eam, veri oblique vel ei. Probo novum accumsan et quo, elit animal ad est. Duo eu essent dolorem expetenda, ad accusam offendit noluisse eos, at velit tincidunt his. Alterum invenire ut vel.</p>
+						</article>
+					</div>
+				</div>
+				<div class="col-xs-12 l-height-50vh bg-or">
+					<div class="abs-pos vertical-middle">
+						<article class="l-skill padding-xs text-center">
+							<h2 class="text-uppercase">
+								Bootstrap
+								<div class="border-white"></div>
+							</h2>
+							<p>Lorem ipsum dolor sit amet, et tale viderer eam, veri oblique vel ei. Probo novum accumsan et quo, elit animal ad est. Duo eu essent dolorem expetenda, ad accusam offendit noluisse eos, at velit tincidunt his. Alterum invenire ut vel.</p>
+						</article>
+					</div>
+				</div>
+			</div>
+		</section> <!-- End of section #2 -->
+		<section class="section bg-elb">
+			<div class="row no-margin">
+				<div class="col-xs-12">
+					<h1 class="text-black">Footer section</h1>
+				</div>
+			</div>
+		</section>
 	</div>
 	
     <!-- Bootstrap core JavaScript

@@ -6,6 +6,25 @@
  *	Red:				#CC0F00
  */
 
+/* Typography */
+@font-face {
+	font-family: "Bree Serif";
+	src: url("../fonts/Bree_Serif/BreeSerif-Regular.ttf") format("ttf");
+}
+
+@font-face {
+	font-family: "Abel";
+	src: url("../fonts/Bree_Serif/Abel-Regular.ttf") format("ttf");
+}
+
+body {
+	font-family: "Abel", sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: "Bree Serif", sans-serif;
+}
+
 /* Full page scroll */
 #fp-nav {
 	display: none;
@@ -20,19 +39,32 @@
 	padding: 0;
 }
 
+.no-margin {
+	margin: 0;
+}
+
 .abs-pos {
 	position: absolute;
 }
 
+.rel-pos {
+	position: relative;
+}
+
+.fixed {
+	position: fixed;
+}
+
 .vertical-middle {
+	left: 0;
 	top: 50%;
 	transform: translate(0, -50%);
+	width: 100%;
 }
 
 .l-height-50vh {
 	min-height: 50vh;
 }
-
 /* Background-colors */
 .bg-elb {
 	background-color: #00FBFF;
@@ -58,7 +90,32 @@
 	background-color: #CC0F00;
 }
 
+/* Typography colors */
+body {
+	color: #fff;
+}
+
+.text-black {
+	color: #000;
+}
+
+/* Section #1 */
+.l-hero {
+	max-width: 550px;
+	margin: 0 auto;
+}
+
 /* Section #2 */
 .padding-xs {
-	padding: 0 15px;
+	padding: 0 30px;
+}
+
+.l-skill {
+	max-width: 450px;
+	margin: 0 auto;
+}
+
+.l-skill h2 {
+	font-size: 42px;
+	font-weight: 900;
 }
