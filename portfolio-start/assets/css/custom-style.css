@@ -1,0 +1,68 @@
+/*
+ *  Light blue: #3AAFCC
+ *	Dark blue:  #007A99
+ *	Green:			#00FF6B
+ *	Orange:			#FF7F00
+ *	Red:				#CC0F00
+ */
+
+/* Full page scroll */
+#fp-nav {
+	display: none;
+}
+
+#fp-nav.right {
+	right: 0;
+}
+
+/* General styles */
+.no-padding {
+	padding: 0;
+}
+
+.no-margin {
+	margin: 0;
+}
+
+.abs-pos {
+	position: absolute;
+}
+
+.vertical-middle {
+	top: 50%;
+	transform: translate(0, -50%);
+}
+
+.l-height-50vh {
+	min-height: 50vh;
+}
+
+/* Background-colors */
+.bg-elb {
+	background-color: #00FBFF;
+}
+
+.bg-lb {
+	background-color: #3AAFCC;
+}
+
+.bg-db {
+	background-color: #007A99;
+}
+
+.bg-gr {
+	background-color: #00FF6B;
+}
+
+.bg-or {
+	background-color: #FF7F00;
+}
+
+.bg-rd {
+	background-color: #CC0F00;
+}
+
+/* Section #2 */
+.padding-xs {
+	padding: 0 15px;
+}
